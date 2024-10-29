@@ -1,21 +1,21 @@
-name: Question
-description: Ask a general question
-title: "[Question]: "
+name: Pregunta
+description: Haz una pregunta general
+title: "[Pregunta]: "
 labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reaching out with your question!
+        ¡Gracias por contactarnos con tu pregunta!
   - type: textarea
     id: question
     attributes:
-      label: What's your question?
-      description: Please provide as much context as possible
+      label: ¿Cuál es tu pregunta?
+      description: Por favor proporciona todo el contexto posible
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Additional context
-      description: Add any other context about the question here 
+      label: Contexto adicional
+      description: Agrega cualquier otro contexto sobre la pregunta aquí
