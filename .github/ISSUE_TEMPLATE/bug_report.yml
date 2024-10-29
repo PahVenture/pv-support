@@ -1,7 +1,7 @@
 name: Reporte de Error
 description: Reportar un error
 title: "[Error]: "
-labels: ["bug"]
+labels: ["bug", "needs triage"]
 body:
   - type: markdown
     attributes:
