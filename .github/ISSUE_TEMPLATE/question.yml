@@ -1,7 +1,7 @@
 name: Pregunta
 description: Haz una pregunta general
 title: "[Pregunta]: "
-labels: ["question"]
+labels: ["question", "needs triage"]
 body:
   - type: markdown
     attributes:
