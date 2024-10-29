@@ -1,7 +1,7 @@
 name: Solicitud de Funcionalidad
 description: Sugiere una idea para este proyecto
 title: "[Funcionalidad]: "
-labels: ["enhancement"]
+labels: ["enhancement", "needs triage"]
 body:
   - type: markdown
     attributes:
