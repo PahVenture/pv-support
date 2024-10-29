@@ -1,0 +1,21 @@
+name: Question
+description: Ask a general question
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out with your question!
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+      description: Please provide as much context as possible
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the question here 
