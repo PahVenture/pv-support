@@ -1,30 +1,30 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Reporte de Error
+description: Reportar un error
+title: "[Error]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ¡Gracias por tomarte el tiempo de llenar este reporte de error!
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: ¿Qué sucedió?
+      description: También cuéntanos, ¿qué esperabas que sucediera?
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
-      description: How can we reproduce this issue?
+      label: Pasos para reproducir
+      description: ¿Cómo podemos reproducir este problema?
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: Version
-      description: What version are you using?
+      label: Versión
+      description: ¿Qué versión estás usando?
     validations:
-      required: true 
+      required: true
